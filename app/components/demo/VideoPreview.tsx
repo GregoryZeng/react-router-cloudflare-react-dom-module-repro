@@ -3,13 +3,15 @@ import {
   useImperativeHandle,
   useRef,
 } from "react";
-import type { MediaPlayerInstance } from "@vidstack/react";
 import {
-  DefaultVideoLayout,
   MediaPlayer,
   MediaProvider,
+  type MediaPlayerInstance,
+} from "@vidstack/react";
+import {
+  DefaultVideoLayout,
   defaultLayoutIcons,
-} from "~/lib/vidstack-react";
+} from "@vidstack/react/player/layouts/default";
 import "@vidstack/react/player/styles/default/theme.css";
 import "@vidstack/react/player/styles/default/layouts/video.css";
 
